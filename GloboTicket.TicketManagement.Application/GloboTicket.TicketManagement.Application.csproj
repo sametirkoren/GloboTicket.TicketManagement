@@ -14,4 +14,11 @@
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Features\Categories\Commands\" />
+    <Folder Include="Features\Events\Commands\CreateEvent\" />
+    <Folder Include="Features\Orders\Commands\" />
+    <Folder Include="Features\Orders\Queries\" />
+  </ItemGroup>
+
 </Project>
